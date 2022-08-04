@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fcc-form</title>
+</head>
+<body>
+    <main class="main">
+        <div class="img-bg">
+            <img src="img/main-bg.jpg" alt="Glasses in front of computer" class="main-bg">
+        </div>
+        <div class="wrap">
+            <h1 class="form__title">freeCodeCamp Survey Form</h1>
+            <p class="form__text">Thank you for taking the time to help us improve the platform</p>            
+            <form action="#" class="fcc-survey-form">
+                <fieldset class="fcc-form">
+                    <label for="name">Name
+                        <input type="text" id="name" name="name" required>
+                    </label>
+                    <label for="email"> Email
+                        <input type="email" id="email" name="email" required>
+                    </label>
+                    <label for="age">Age (optional)
+                        <input type="text" id="age" name="age">
+                    </label>
+                    <label for="current-role">Which option best describes your current role? 
+                        <select name="current-role" id="current-role">
+                            <option value="select-current-role">Select current role</option>
+                            <option value="student">Student</option>
+                            <option value="full-time-job">Full Time Job</option>
+                            <option value="full-time-learner">Full Time Learner</option>
+                            <option value="prefer-not-to-say">Prefer not to say</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </label>
+                    <label>Would you recommend freeCodeCamp to a friend?
+                        <label for="definitely"> 
+                            <input type="radio" id="definitely" value="definitely" name="recommendation">Definitely
+                        </label>
+                        <label for="maybe"> 
+                            <input type="radio" id="maybe" value="maybe" name="recommendation">Maybe
+                        </label>
+                        <label for="not-sure"> 
+                            <input type="radio" id="not-sure" value="not-sure" name="recommendation">Not sure
+                        </label>
+                    </label>
+                    <label for="favorite-feature">Which option best describes your current role? 
+                        <select name="favorite-feature" id="favorite-feature">
+                            <option value="select-current-role">Select current role</option>
+                            <option value="student">Student</option>
+                            <option value="full-time-job">Full Time Job</option>
+                            <option value="full-time-learner">Full Time Learner</option>
+                            <option value="prefer-not-to-say">Prefer not to say</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </label>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
